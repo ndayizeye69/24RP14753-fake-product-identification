@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.project-title {
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #34495e;
+}
+
+.admin-page, .customer-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #3498db;
+}
+
+.status-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+.qr-code-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.verification-result {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.authentic {
+  color: #27ae60;
+}
+
+.fake {
+  color: #e74c3c;
+}
+
+.product-details {
+  margin-top: 1rem;
+  text-align: left;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.product-details h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}

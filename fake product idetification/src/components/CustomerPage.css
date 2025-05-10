@@ -1,0 +1,73 @@
+.customer-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.qr-upload {
+  margin: 10px 0;
+}
+
+.qr-upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.qr-upload-label:hover {
+  background-color: #45a049;
+}
+
+.status-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.verification-result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.authentic {
+  color: #28a745;
+}
+
+.fake {
+  color: #dc3545;
+}
+
+.product-details {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.customer-page input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.customer-page button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.customer-page button:hover {
+  background-color: #45a049;
+}
